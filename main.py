@@ -3,8 +3,8 @@ import json
 from web3 import Web3
 from websockets import connect
 from price_oracle import ABI,ADDRESS
-ETH_WS=  'wss://eth-mainnet.g.alchemy.com/v2/mNmqOwPIwA_-dOpWTm2bOJbKQ5xoAWAU'
-ETH_HTTP='https://mainnet.infura.io/v3/b03923dc68e54937b578a73a58ce6773'
+ETH_WS=  'wss://eth-mainnet.g.alchemy.com/v2/yourkey'
+ETH_HTTP='https://mainnet.infura.io/v3/yourkey'
 WBTC=Web3.to_checksum_address('0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599')
 
 def get_contract():
